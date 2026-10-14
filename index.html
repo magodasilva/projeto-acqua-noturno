@@ -11,44 +11,62 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main>
-        <h1> Projeto Acqua </h1>
+        <h1 class="visuallyhidden"> Projeto Acqua </h1>
 
-        <section>
-            <h2> Contador do lançamento do projeto </h2>
-            <p> 45 </p>
-            <p> dias </p>
-            <p> 10 </p>
-            <p> horas </p>
-            <p> 24 </p>
-            <p> minutos </p>
-            <p> 50 </p>
-            <p> segundos </p>
-        </section>
+        <div class="container">
+            <section class="lancamento">
+                <h2 class="visuallyhidden"> Contador do lançamento do projeto </h2>
+                <div class="contador">
+                    <div>
+                        <p> 45 </p>
+                        <p> dias </p>
+                    </div>
 
-        <section>
-            <h2> Prédio Acqua </h2>
-            <p> Receba novidades sobre nosso lançamento. </p>
-            <p> Morar contemporâneo para pessoas com estilo de vida dinâmico e que buscam praticidade no seu dia a dia.
-                Lazer, esporte, trabalho e contato com a natureza em um só lugar. </p>
+                    <div>
+                        <p> 10 </p>
+                        <p> horas </p>
+                    </div>
 
-            <form>
-                <label for="email"> Email </label>
-                <input type="email" name="email" id="email" placeholder="Digite seu email..." required
-                    autocomplete="email">
+                    <div>
+                        <p> 24 </p>
+                        <p> minutos </p>
+                    </div>
 
-                <button type="submit"> Quero saber mais </button>
-            </form>
-        </section>
+                    <div>
+                        <p> 50 </p>
+                        <p> segundos </p>
+                    </div>
+                </div>
+            </section>
 
-        <section>
+            <section class="novidades">
+                <h2> Prédio Acqua </h2>
+                <p> Receba novidades sobre nosso lançamento. </p>
+                <p> Morar contemporâneo para pessoas com estilo de vida dinâmico e que buscam praticidade no seu dia a
+                    dia.
+                    Lazer, esporte, trabalho e contato com a natureza em um só lugar. </p>
+
+                <form>
+                    <label for="email" class="visuallyhidden"> Email </label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email..." required
+                        autocomplete="email">
+
+                    <button type="submit"> Quero saber mais </button>
+                </form>
+            </section>
+        </div>
+
+        <section class="andamento">
             <h2> Andamento do projeto </h2>
             <p> Veja como está o andamento da construção. </p>
 
